@@ -1,0 +1,123 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('Fonts/Gotham/gothamrnd_bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header{
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: #16a085;
+    color: #ff99b6;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+main img{
+    width:100%;
+}
+
+.text-wrapper{
+    padding: 74px 109px 79px;
+    text-align: center;
+    background-color:#f5f6f7 ;
+}
+
+.text-wrapper h1{
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.text-wrapper p{
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    line-height: 26px;
+    color: #373737;
+}
+
+.btn-link{
+    display: inline-block;
+    padding: 20px 44px;
+    border-radius: 5px;
+    background-color:#ff99b6;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.btn-link:hover{
+    color:#ff99b6;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 45px 105px 48px;
+}
+
+.nav-footer{
+    display:flex;
+    gap: 24px;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.nav-footer a::after{
+    content: "|";
+    margin-left: 12px;
+    color: #ff99b6;
+}
+
+.nav-footer a:last-child::after{
+    content: "";
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    color: #373737;
+}
